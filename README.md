@@ -1,6 +1,8 @@
-# head-of-content-free
+# Discovery Content Radar
 
 Контент-ресёрч по X, Instagram, TikTok и YouTube: сбор постов, поиск аутлаеров, разбор хуков и контент-план. Без Apify, без TubeLab, без подписок на Клода или GPT. Расходники — около 150 ₽ в месяц.
+
+Инструмент из стекa [Discovery System](https://discovery-system.ru) — внедряем такие сборки малому бизнесу без зарубежных подписок.
 
 Форк [bradautomates/head-of-content](https://github.com/bradautomates/head-of-content) (MIT) с заменёнными бэкендами. Формулы скоринга, структура отчётов и все 6 скиллов сохранены. Заменено то, что снимало с тебя деньги каждый месяц.
 
@@ -33,8 +35,8 @@
 ## Установка
 
 ```bash
-git clone https://github.com/r0undm1dn1ghty-star/head-of-content-free.git
-cd head-of-content-free
+git clone https://github.com/r0undm1dn1ghty-star/discovery-content-radar.git
+cd discovery-content-radar
 pip install requests python-dotenv yt-dlp youtube-transcript-api instaloader google-genai
 cp .env.example .env
 ```
