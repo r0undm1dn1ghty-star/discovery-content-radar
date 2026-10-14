@@ -1,4 +1,6 @@
-# Discovery Content Radar
+# ds_content-radar
+
+**Discovery Content Radar**
 
 <div align="center">
 <img src="assets/banner.svg" alt="Discovery System — Content Radar — аутлаеры и контент-план" width="100%">
@@ -23,7 +25,17 @@
 
 Расчёт для режима «3 прогона в неделю, 10 аккаунтов, 100 постов на аккаунт». Разово twitterapi.io даёт $1 на старте — первый месяц вообще бесплатный.
 
-## Что внутри
+## Установка и использование
+
+Шесть скиллов с префиксом **`ds_`**: готовые пакеты `*.skill` в корне репо — ставятся перетаскиванием в Claude Code, либо из папки `.claude/skills/`. В чате: «запусти ds_x-research по …».
+
+```bash
+git clone https://github.com/r0undm1dn1ghty-star/discovery-content-radar.git
+cp -r discovery-content-radar/.claude/skills/* ~/.claude/skills/
+# готовые пакеты: ds-пакеты *.skill лежат в корне репо
+```
+
+Все скиллы Discovery System — с префиксом **`ds_`**: `ds_pnl-check`, `ds_spiral-maturity`, `ds_geo-audit`, `ds_market-evidence`, `ds_warm-lead-parser`, `ds_content-radar`. Комплект и связка — [discovery-system.ru](https://discovery-system.ru).## Что внутри
 
 Шесть скиллов для Claude Code / Cowork (папка `.claude/skills/` и пакеты `*.skill`):
 
