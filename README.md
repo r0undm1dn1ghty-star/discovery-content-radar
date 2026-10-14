@@ -1,5 +1,9 @@
 # Discovery Content Radar
 
+<div align="center">
+<img src="assets/banner.svg" alt="Discovery System — Content Radar — аутлаеры и контент-план" width="100%">
+</div>
+
 Контент-ресёрч по X, Instagram, TikTok и YouTube: сбор постов, поиск аутлаеров, разбор хуков и контент-план. Без Apify, без TubeLab, без подписок на Клода или GPT. Расходники — около 150 ₽ в месяц.
 
 Инструмент из стекa [Discovery System](https://discovery-system.ru) — внедряем такие сборки малому бизнесу без зарубежных подписок.
