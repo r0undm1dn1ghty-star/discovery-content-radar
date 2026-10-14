@@ -17,7 +17,7 @@
 Шесть скиллов с префиксом **`ds_`**: готовые пакеты `*.skill` в корне репо — ставятся перетаскиванием в Claude Code, либо из папки `.claude/skills/`. В чате: «запусти ds_x-research по …».
 
 ```bash
-git clone https://github.com/r0undm1dn1ghty-star/discovery-content-radar.git
+git clone https://github.com/r0undm1dn1ghty-star/ds_content-radar.git
 cp -r discovery-content-radar/.claude/skills/* ~/.claude/skills/
 # готовые пакеты: ds-пакеты *.skill лежат в корне репо
 ```
@@ -53,8 +53,8 @@ cp -r discovery-content-radar/.claude/skills/* ~/.claude/skills/
 ## Установка
 
 ```bash
-git clone https://github.com/r0undm1dn1ghty-star/discovery-content-radar.git
-cd discovery-content-radar
+git clone https://github.com/r0undm1dn1ghty-star/ds_content-radar.git
+cd ds_content-radar
 pip install requests python-dotenv yt-dlp youtube-transcript-api instaloader google-genai
 cp .env.example .env
 ```
